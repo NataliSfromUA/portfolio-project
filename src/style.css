@@ -44,6 +44,19 @@ p {
   padding: 12px 20px;
 }
 
+.about-section h1 {
+  font-size: 48px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 @media (max-width: 768px) {
   #project {
     padding: 0;
@@ -53,6 +66,13 @@ p {
     font-size: 48px;
   }
   .hero {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section-content {
     padding-top: 20px;
     padding-bottom: 20px;
   }
