@@ -4,12 +4,39 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+}
+
+nav li.active a {
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 h1 {
   font-size: 56px;
 }
 h2 {
   font-size: 36px;
-  font-weight: 600s;
+  font-weight: 600;
 }
 .hero h2 {
   font-weight: 400;
@@ -85,5 +112,8 @@ p {
   .about-section-content {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
