@@ -46,6 +46,11 @@ h3 {
   font-weight: 400;
   line-height: 2;
 }
+
+h4 {
+  font-size: 36px;
+}
+
 p {
   font-size: 16px;
   line-height: 24px;
@@ -94,6 +99,48 @@ p {
   margin-bottom: 20px;
 }
 
+footer .email-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  background-color: antiquewhite;
+  padding: 30px 60px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: antiquewhite;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 768px) {
   #project {
     padding: 0;
@@ -101,6 +148,9 @@ p {
   }
   h1 {
     font-size: 48px;
+  }
+  h4 {
+    font-size: 18px;
   }
   .hero {
     padding-top: 20px;
