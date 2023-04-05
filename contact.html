@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description="
+      content="Contacts of Natalia, business analyst who stydying front-end"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,38 +28,30 @@
     <title>Contacts of Natalia Sukova</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Sukova Natalia</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" class="d-none d-md-block" title="Sukova Natalia"
+          >Sukova Natalia</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <a href="index.html" class="d-block d-md-none" title="Sukova Natalia"
+          >SN</a
+        >
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Natalia page">About me</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Naatalia works">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact page of Natalia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="content-container container">
       <div class="content">
@@ -76,5 +72,57 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div>
+          <h4>Work inquery</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Natalia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <a
+        href="mailto:natalis13031987@gmail.com"
+        class="email-link mb-3"
+        title="email Natalia"
+      >
+        natalia@gmail.com
+      </a>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/natali.sew_for_you/"
+          target="_blank"
+          title="instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nataliasukova/"
+          target="_blank"
+          title="linkedin profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/NataliSfromUA"
+          target="_blank"
+          title="github profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center m-5">
+        This project was coded SheCodes, it's
+        <a
+          href="https://github.com/NataliSfromUA/portfolio-project"
+          target="_blank"
+          title="open project in github"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
